@@ -1,3 +1,8 @@
+# Added info
+
+This project is made after Dev Ed's tutorial. For more information, visit:
+  https://developedbyed.com/courses/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
