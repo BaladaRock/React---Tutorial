@@ -1,0 +1,12 @@
+.tweet {
+    background: blue;
+}
+
+.tweet h2 {
+    color: red;
+}
+
+.tweet button {
+    background: white;
+    border: 2px solid green;
+}

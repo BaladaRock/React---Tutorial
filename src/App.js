@@ -1,14 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TweetList from "./components/TweetList";
 import CreateTweet from "./components/CreateTweet";
 
 function App() {
   // stats
-  const [name, setName] = useState("Andrei");
+  const [name] = useState("Andrei");
   const [textInput, setTextInput] = useState("");
   const [tweets, setTweets] = useState([]);
 
-  const tweetsContent = "R2 B2 R F R'B2 R F' R";
+  useEffect(() => {
+    console.log("Use effect function was called!");
+  }, [textInput]);
 
   return (
     <div className="tweet">
